@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+
+    <!--fav_iconcountry-->
+    <link rel="shortcut icon" type="image/png" href="asset/image/favicon.png">
+
+    <!--Bootstrap_CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Google_fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+
+    <!--My_CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+
+</head>
+<body>
+    <!--head-start-->
+        <section id="Top">
+            <nav class="navbar navbar-expand-lg navbar-light nav-style StickyNav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                  <ul class="navbar-nav mobile">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle nav-font-style" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Algebra
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#Top">Calculator</a>
+                        <a class="dropdown-item" href="#Type">Type</a>
+                        <a class="dropdown-item" href="#Factorial">Factorial</a>
+                        <a class="dropdown-item" href="#Logarithm">Logarithm</a>
+                        <a class="dropdown-item" href="#Power">Power</a>
+                        <a class="dropdown-item" href="#Root">Root</a>
+                      </div>
+                    </li>
+                    <li class="nav-item mr-auto dropdown">
+                        <a class="nav-link dropdown-toggle nav-font-style" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Geometry
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#Circle">Circle</a>
+                          <a class="dropdown-item" href="#Square">Square</a>
+                          <a class="dropdown-item" href="#Triangle">Triangle</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-font-style" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Decoder
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#Decimal">Decimal</a>
+                          <a class="dropdown-item" href="#Binary">Binary</a>
+                          <a class="dropdown-item" href="#Octal">Octal</a>
+                          <a class="dropdown-item" href="#Hexadecimal">Hexadecimal</a>
+                        </div>
+                      </li>
+                  </ul>
+
+                  <ul class="navbar-nav offset-lg-1 computer">
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Top">Calculator</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Type">Type</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Factorial">Factorial</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Logarithm">Logarithm</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Power">Power</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Root">Root</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Circle">Circle</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Square">Square</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Triangle">Triangle</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Decimal">Decimal</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Binary">Binary</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Octal">Octal</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link nav-font-style" href="#Hexadecimal">Hexadecimal</a>
+                    </li>
+                  </ul>
+
+                </div>
+            </nav>
+
+            <div class="container-fluid div1">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-4 heading-col col-position">
+                        <h1 class="heading1 col-position">
+                            Lets Play With Numbers
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--head-end-->
+
+    <!--body-start-->
+    <section id="Calculator">
+        <div class="container-fluid div2 color1">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Calculator</h1>
+                    <p class="pera1">
+                        In 1642, 
+                        the first true “calculator” was invented: 
+                        one that performed calculations through a 
+                        clockwork-type of mechanism. The Pascal calculator, 
+                        invented by French inventor and mathematician Blaise Pascal, 
+                        was lauded for attempting arithmetic calculations previously 
+                        thought impossible.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <h1 id="calculatorOutput" class="output-box "></h1>
+                    <div class="row">
+                        <div class="col-3 no-margin-right col-position">
+                            <button class="button" onclick="inputNumber(7)">7</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(8)">8</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(9)">9</button>
+                        </div>
+                        <div class="col-3 no-margin-left col-position">
+                            <button class="button" onclick="inputOparator('/')">/</button>
+                        </div>
+                    </div>
+                    <div class="row no-margin-row">
+                        <div class="col-3 no-margin-right col-position">
+                            <button class="button" onclick="inputNumber(4)">4</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(5)">5</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(6)">6</button>
+                        </div>
+                        <div class="col-3 no-margin-left col-position">
+                            <button class="button" onclick="inputOparator('*')">*</button>
+                        </div>
+                    </div>
+                    <div class="row no-margin-row">
+                        <div class="col-3 no-margin-right col-position">
+                            <button class="button" onclick="inputNumber(1)">1</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(2)">2</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(3)">3</button>
+                        </div>
+                        <div class="col-3 no-margin-left col-position">
+                            <button class="button" onclick="inputOparator('+')">+</button>
+                        </div>
+                    </div>
+                    <div class="row no-margin-row ">
+                        <div class="col-3 no-margin-right col-position">
+                            <button class="button" onclick="Percentage()">%</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputNumber(0)">0</button>
+                        </div>
+                        <div class="col-3 no-margin col-position">
+                            <button class="button" onclick="inputOparator('.')">.</button>
+                        </div>
+                        <div class="col-3 no-margin-left col-position">
+                            <button class="button" onclick="inputOparator('-')">-</button>
+                        </div>
+                    </div>
+                    <div class="row no-margin-row">
+                        <div class="col-6 no-margin-right col-position ">
+                            <button class="button radious-left" onclick="Clear()">Clear</button>
+                        </div>
+                        <div class="col-3 no-margin col-position ">
+                            <button class="button" onclick="Backspace()"><i class="fas fa-backspace"></i></button>
+                        </div>
+                        <div class="col-3 no-margin-left col-position ">
+                            <button class="button radious-right" onclick="Result()">=</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Type">
+        <div class="container-fluid div2 color2">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Types of Number</h1>
+                    <p class="pera1">
+                        1. Positive numbers: Real numbers that are greater than zero.
+                    </p>
+                    <p class="pera1">
+                        2. Negative numbers: Real numbers that are less than zero.
+                    </p>
+                    <p class="pera1">
+                        3. Prime number: A positive integer with exactly two positive divisors: itself and 1. 
+                    </p>
+                    <p class="pera1">
+                        4. Composite number: A positive integer that can be factored into a product of smaller positive integers
+                    </p>
+                    <p class="pera1">
+                        5. Decimal: The standard Hindu–Arabic numeral system using base ten.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="typeOutput" type="number" class="output-box">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="checkType()">Check type</button>
+                        </div>
+                    </div>
+                    <p id="typeOutput1" class="pera1 margint-top-pera"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Factorial">
+        <div class="container-fluid div2 color3">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Factorial</h1>
+                    <p class="pera1">
+                        In mathematics, the factorial of 
+                        a non-negative integer n, denoted by 
+                        n!, is the product of all positive 
+                        integers less than or equal to n.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="factorial" type="number" class="output-box">
+                    <div class="row">
+                        <div class="col-12 col-position">
+
+                            <button class="button radious-bottom" onclick="checkFactorial()">Factorial</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Logarithm">    
+        <div class="container-fluid div2 color4">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Logarithm</h1>
+                    <p class="pera1">
+                        In mathematics, the logarithm is 
+                        the inverse operation to exponentiation, 
+                        just as division is the inverse of multiplication 
+                        and vice versa. That means the logarithm of a number is 
+                        the exponent to which another fixed number, the base, must 
+                        be raised to produce that number.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputLognumber" type="number" class="output-box">
+                    <div class="row">
+                        <div class="col-12  col-position ">
+                            <button class="button" onclick="calculateLog2()">Log<sub>2</sub></button>
+                            <button class="button radious-bottom" onclick="calculateLog10()">Log<sub>10</sub></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Power">
+        <div class="container-fluid div2 color5">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Power</h1>
+                    <p class="pera1">
+                        In mathematics, an n is the power of a number x, 
+                        where n is usually assumed to be a positive integer, 
+                        is a number r which, when raised to the power x. 
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputNumber" type="number" class="output-box" placeholder="Number">
+                    <input id="inputPower" type="number" class="output-box no-radious" placeholder="Power">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="calculatePower()">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Root">
+        <div class="container-fluid div2 color6">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Root</h1>
+                    <p class="pera1">
+                        In mathematics, an nth root of a number x, 
+                        where n is usually assumed to be a positive integer, 
+                        is a number r which, when raised to the power n yields x. 
+                        The nth root of a number, x, is typically denoted as n√x
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputRootnumber" type="number" class="output-box" placeholder="Number">
+                    <input id="inputRootpower" type="number" class="output-box no-radious" placeholder="Root power">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="calculateRoot()">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="conatiner-fluid style-div color7">
+            <div class="col-12 inner-style-div color6 col-position"></div>
+        </div>
+
+    <section id="Circle">
+        <div class="container-fluid div2 color7">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Circle Area</h1>
+                    <p class="pera1">
+                        A circle is a simple closed shape. 
+                        It is the set of all points in a plane 
+                        that are at a given distance from a given 
+                        point, the centre. Equivalently, it is the 
+                        curve traced out by a point that moves so that 
+                        its distance from a given point is constant.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="circleRadious" type="number" class="output-box" placeholder="Circle Radious">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="calculateCirclearea()">Area</button>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Square">
+        <div class="container-fluid div2 color8">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Square Area</h1>
+                    <p class="pera1">
+                        In geometry, a square is a regular quadrilateral, 
+                        which means that it has four equal sides and four 
+                        equal angles (90-degree angles, or (100-gradian angles or right angles)). 
+                        It can also be defined as a rectangle in which two adjacent sides have equal length.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="squareLength" type="number" class="output-box" placeholder="Square Length">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="calculateSquarearea()">Area</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Triangle">
+        <div class="container-fluid div2 color9">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Triangle Area</h1>
+                    <p class="pera1">
+                        A triangle is a polygon with three edges and three vertices. 
+                        It is one of the basic shapes in geometry.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="triangleHeight" type="number" class="output-box" placeholder="Height">
+                    <input id="triangleBase" type="number" class="output-box no-radious" placeholder="Base">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button radious-bottom" onclick="triangleArea()">Area</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="conatiner-fluid style-div color10">
+            <div class="col-12 inner-style-div color9 col-position1"></div>
+        </div>
+
+    <section id="Decimal">
+        <div class="container-fluid div2 color10">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Decimal</h1>
+                    <p class="pera1">
+                        The decimal numeral system  
+                        is the standard system for denoting integer and non-integer numbers. 
+                        It is the extension to non-integer numbers of the Hindu–Arabic numeral system.
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputDecimal" type="text" class="output-box">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button" onclick="decimalTobinary()">Decimal to Binary</button>
+                            <button class="button" onclick="decimalTooctal()">Decimal to Octal</button>
+                            <button class="button radious-bottom" onclick="decimalTohexadecimal()">Decimal to Hexadecimal</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Binary">
+        <div class="container-fluid div2 color10">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Binary</h1>
+                    <p class="pera1">
+                        Binary number is a number expressed in the 
+                        base-2 numeral system or binary numeral system, 
+                        a method of mathematical expression which uses only 
+                        two symbols: typically "0" (zero) and "1" (one).
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputBinary" type="text" class="output-box">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button" onclick="binaryTodecimal()">Binary to Decimal</button>
+                            <button class="button" onclick="binaryToOctal()">Binary to Octal</button>
+                            <button class="button radious-bottom" onclick="binaryToHexadecimal()">Binary to Hexadecimal</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Octal">
+        <div class="container-fluid div2 color11">
+            <div class="row no-margin-row">
+                <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                    <h1 class="heading2">Octal</h1>
+                    <p class="pera1">
+                        The octal numeral system, or oct for short, 
+                        is the base-8 number system, and uses the digits 0 to 7. 
+                    </p>
+                </div>
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                    <input id="inputOctal" type="text" class="output-box">
+                    <div class="row">
+                        <div class="col-12 col-position">
+                            <button class="button" onclick="octalTodecimal()">Octal to Decimal</button>
+                            <button class="button" onclick="octalToBinary()">Octal to Binary</button>
+                            <button class="button radious-bottom" onclick="octalToHexadecimal()">Octal to Hexadecimal</button>
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="Hexadecimal">
+            <div class="container-fluid div2 color11">
+                <div class="row no-margin-row">
+                    <div class="col-10 offset-1 col-lg-5 offset-lg-1 col-position">
+                        <h1 class="heading2">Hexadecimal</h1>
+                        <p class="pera1">
+                            The hexadecimal numeral system, 
+                            often shortened to "hex", 
+                            is a numeral system made up of 16 symbols (base 16). 
+                            The standard numeral system is called decimal (base 10) 
+                            and uses ten symbols: 0,1,2,3,4,5,6,7,8,9. Hexadecimal uses 
+                            the decimal numbers and six extra symbols. There are no numerical 
+                            symbols that represent values greater than nine, so letters taken from 
+                            the English alphabet are used, specifically A, B, C, D, E and F. 
+                        </p>
+                    </div>
+                    <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-3 offset-lg-0 col-position">
+                        <input id="inputHexadecimal" type="text" class="output-box">
+                        <div class="row">
+                            <div class="col-12 col-position">
+                                <button class="button" onclick="hexadecimalToDecimal()">Hexadecimal to Decimal</button>
+                                <button class="button" onclick="hexadecimalToBinary()">Hexadecimal to Binary</button>
+                                <button class="button radious-bottom" onclick="hexadecimalToOctal()">Hexadecimal to Octal</button>
+                            </div>                 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="conatiner-fluid style-div color11">
+            <div class="col-12 inner-style-div color11 col-position"></div>
+        </div>
+    </section> 
+    <!--body-end-->
+    
+    <!--footer-start-->
+    <section>
+    <div class="container-fluid color12">
+        <div class="row">
+            <div class="col-10 offset-1 col-position">
+                <div class="row">
+                    <div class="col-12 col-position">
+                        <h1 class="heading1">
+                            CONTACT ME
+                        </h1>
+                    </div>
+                    <div class="col-12 col-md-8 offset-md-2 col-lg-2 offset-lg-4 col-position">
+                        <img src="asset/image/profile.jpg" alt="" class="img-div">
+                    </div>
+                    <div class="col-12 margin col-lg-5 col-position">
+                        <h1 class="heading2 text-align-left">
+                            PHONE NUMBER
+                        </h1>
+                        <p class="pera1 text-align-left">
+                            01318106433
+                        </p>
+                        <p class="pera1 text-align-left">
+                            01939127879
+                        </p>
+                        <h1 class="heading2 text-align-left">
+                            EMAIL ADDRESS
+                        </h1>
+                        <p class="pera1 text-align-left">
+                            zazbah88@gmail.com
+                        </p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--footer-end-->
+
+
+    <!--Bootstrap_JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--Fontawsome-->
+    <script src="https://kit.fontawesome.com/e6c688e1c2.js" crossorigin="anonymous"></script>
+    
+    <!--My_JavaScript-->
+        <!--algebra-js-->
+            <script src="asset/js/algebra/Calculate.js"></script>
+            <script src="asset/js/algebra/Type.js"></script>
+            <script src="asset/js/algebra/Factorial.js"></script>
+            <script src="asset/js/algebra/Power.js"></script>
+            <script src="asset/js/algebra/Root.js"></script>
+            <script src="asset/js/algebra/Logarithm.js"></script>
+
+        <!--geometry-js-->
+            <script src="asset/js/geometry/Circle.js"></script>
+            <script src="asset/js/geometry/Square.js"></script>
+            <script src="asset/js/geometry/Triangle.js"></script>
+
+    <!--decoder-js-->
+        <!--decimal-js-->
+            <script src="asset/js/decoder/decimal/DecimalToBinary.js"></script>
+            <script src="asset/js/decoder/decimal/DecimalToOctal.js"></script>
+            <script src="asset/js/decoder/decimal/DecimalToHexadecimal.js"></script>
+
+        <!--binary-js-->
+            <script src="asset/js/decoder/binary/BinaryToDecimal.js"></script>
+            <script src="asset/js/decoder/binary/BinaryToOctal.js"></script>
+            <script src="asset/js/decoder/binary/BinaryToHexadecimal.js"></script>
+        <!--octal-js-->
+            <script src="asset/js/decoder/octal/OctalToDecimal.js"></script>
+            <script src="asset/js/decoder/octal/OctalToBinary.js"></script>
+            <script src="asset/js/decoder/octal/OctalToHexadecimal.js"></script>
+
+        <!--hexadecimal-js-->
+            <script src="asset/js/decoder/hexadecimal/HexadecimalToDecimal.js"></script>
+            <script src="asset/js/decoder/hexadecimal/HexadecimalToBinary.js"></script>
+            <script src="asset/js/decoder/hexadecimal/HexadecimalToOctal.js"></script>
+
+        <!--Style-js-->
+            <script src="asset/js/StickyNav.js"></script>
+</body>
+</html>
